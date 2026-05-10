@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PawsHope — Every Paw Deserves Love & Care</title>
+  <meta name="description" content="PawsHope Animal Charity rescues, rehabilitates and rehomes abandoned and injured animals. Join us in making a difference." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Nunito:wght@300;400;600;700;800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- PAGE LOADER -->
+<div id="loader">
+  <div class="loader-inner">
+    <div class="paw-loader">🐾</div>
+    <p>Loading with love…</p>
+  </div>
+</div>
+
+<!-- SCROLL PROGRESS -->
+<div id="scroll-progress"></div>
+
+<!-- BACK TO TOP -->
+<button id="back-to-top" aria-label="Back to top">↑</button>
+
+<!-- NAVBAR -->
+<header id="navbar">
+  <nav class="container nav-inner">
+    <a href="#" class="logo">
+      <span class="logo-icon">🐾</span>
+      <span>Paws<em>Hope</em></span>
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#programs">Programs</a></li>
+      <li><a href="#animals">Adopt</a></li>
+      <li><a href="#donate">Donate</a></li>
+      <li><a href="#volunteer">Volunteer</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      <a href="#donate" class="btn btn-primary nav-cta">Donate Now</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="hero">
+  <div class="hero-bg">
+    <div class="hero-overlay"></div>
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+  <div class="hero-content container">
+    <div class="hero-badge reveal">🐾 Trusted Animal Charity Since 2010</div>
+    <h1 class="hero-title reveal">
+      Every Paw Deserves<br/>
+      <span class="gradient-text" id="typing-text"></span>
+    </h1>
+    <p class="hero-sub reveal">We rescue, rehabilitate, and rehome abandoned and injured animals — because every creature deserves a second chance at a loving life.</p>
+    <div class="hero-btns reveal">
+      <a href="#donate" class="btn btn-primary btn-lg">
+        <span>❤️</span> Donate Now
+      </a>
+      <a href="#volunteer" class="btn btn-glass btn-lg">
+        <span>🙌</span> Become Volunteer
+      </a>
+    </div>
+    <div class="hero-stats reveal">
+      <div class="stat-card glass">
+        <span class="stat-icon">🐶</span>
+        <div>
+          <strong class="counter" data-target="12480">0</strong>+
+          <p>Animals Rescued</p>
+        </div>
+      </div>
+      <div class="stat-card glass">
+        <span class="stat-icon">🙌</span>
+        <div>
+          <strong class="counter" data-target="3200">0</strong>+
+          <p>Volunteers</p>
+        </div>
+      </div>
+      <div class="stat-card glass">
+        <span class="stat-icon">💰</span>
+        <div>
+          $<strong class="counter" data-target="980">0</strong>K+
+          <p>Donations Raised</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-down">
+    <div class="scroll-mouse"></div>
+    <span>Scroll Down</span>
+  </div>
+</section>
+
+<!-- LIVE DONATION TICKER -->
+<div class="ticker-bar">
+  <div class="ticker-label">🔴 LIVE</div>
+  <div class="ticker-track">
+    <div class="ticker-inner" id="ticker"></div>
+  </div>
+</div>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="container about-grid">
+    <div class="about-images reveal">
+      <div class="img-collage">
+        <div class="img-main glass-img">
+          <img src="https://images.unsplash.com/photo-1601758003122-53c40e686a19?w=600&q=80" alt="Dog rescue" />
+        </div>
+        <div class="img-sm img-sm-1 glass-img">
+          <img src="https://images.unsplash.com/photo-1548767797-d8c844163c4a?w=400&q=80" alt="Cat shelter" />
+        </div>
+        <div class="img-sm img-sm-2 glass-img">
+          <img src="https://images.unsplash.com/photo-1583512603806-077998240c7a?w=400&q=80" alt="Rabbit care" />
+        </div>
+        <div class="about-badge glass">
+          <span>🏆</span>
+          <div><strong>Award Winning</strong><p>Best Charity 2024</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="about-content reveal">
+      <div class="section-tag">Our Story</div>
+      <h2 class="section-title">We Give Animals a <span class="gradient-text">Second Chance</span></h2>
+      <p>Founded in 2010, PawsHope has grown from a small local shelter into one of the region's most impactful animal welfare organizations. Every day, our dedicated team works tirelessly to rescue animals from dangerous situations, provide them with expert medical care, and find them loving forever homes.</p>
+      <p>We believe every animal — regardless of species, age, or condition — deserves compassion, safety, and love. Our holistic approach combines rescue operations, community education, and robust adoption programs.</p>
+      <div class="milestone-line">
+        <div class="milestone reveal-left">
+          <div class="m-dot"></div>
+          <div class="m-content"><strong>2010</strong><span>Founded</span></div>
+        </div>
+        <div class="milestone reveal-left">
+          <div class="m-dot"></div>
+          <div class="m-content"><strong>2012</strong><span>First Rescue</span></div>
+        </div>
+        <div class="milestone reveal-left">
+          <div class="m-dot"></div>
+          <div class="m-content"><strong>2018</strong><span>10K Donations</span></div>
+        </div>
+        <div class="milestone reveal-left">
+          <div class="m-dot"></div>
+          <div class="m-content"><strong>2024</strong><span>500+ Adoptions</span></div>
+        </div>
+      </div>
+      <div class="about-counters">
+        <div class="mini-counter">
+          <strong class="counter" data-target="12480">0</strong>+
+          <p>Animals Rescued</p>
+        </div>
+        <div class="mini-counter">
+          <strong class="counter" data-target="500">0</strong>+
+          <p>Adoptions</p>
+        </div>
+        <div class="mini-counter">
+          <strong class="counter" data-target="98">0</strong>%
+          <p>Satisfaction Rate</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROGRAMS -->
+<section id="programs" class="section section-alt">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">What We Do</div>
+      <h2 class="section-title">Our Rescue <span class="gradient-text">Programs</span></h2>
+      <p>Comprehensive care from rescue to forever home</p>
+    </div>
+    <div class="programs-grid">
+      <div class="program-card glass reveal">
+        <div class="prog-icon">🚑</div>
+        <h3>Animal Rescue</h3>
+        <p>24/7 emergency rescue operations for animals in danger, distress, or abandonment situations across the city.</p>
+        <a href="#" class="read-more">Read More →</a>
+      </div>
+      <div class="program-card glass reveal">
+        <div class="prog-icon">💊</div>
+        <h3>Medical Care</h3>
+        <p>Full veterinary services including surgery, vaccinations, dental care, and rehabilitation for injured animals.</p>
+        <a href="#" class="read-more">Read More →</a>
+      </div>
+      <div class="program-card glass reveal">
+        <div class="prog-icon">🏠</div>
+        <h3>Shelter & Food</h3>
+        <p>Safe, comfortable, and clean shelters with nutritious meals and emotional enrichment for all rescued animals.</p>
+        <a href="#" class="read-more">Read More →</a>
+      </div>
+      <div class="program-card glass reveal">
+        <div class="prog-icon">❤️</div>
+        <h3>Adoption Program</h3>
+        <p>Carefully matching animals with loving families through thorough screening and post-adoption support.</p>
+        <a href="#" class="read-more">Read More →</a>
+      </div>
+      <div class="program-card glass reveal">
+        <div class="prog-icon">📢</div>
+        <h3>Awareness Campaigns</h3>
+        <p>Community education programs promoting responsible pet ownership, anti-cruelty laws, and animal welfare.</p>
+        <a href="#" class="read-more">Read More →</a>
+      </div>
+      <div class="program-card glass reveal prog-cta-card">
+        <div class="prog-icon">🌟</div>
+        <h3>Join Our Mission</h3>
+        <p>Together we can build a world where no animal is left behind, hurt, or forgotten.</p>
+        <a href="#volunteer" class="btn btn-primary">Get Involved</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURED ANIMALS -->
+<section id="animals" class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">Ready for Adoption</div>
+      <h2 class="section-title">Meet Our <span class="gradient-text">Animals</span></h2>
+      <p>These beautiful souls are waiting for their forever home</p>
+    </div>
+    <div class="animals-grid">
+      <div class="animal-card reveal" data-id="1">
+        <div class="animal-img">
+          <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=500&q=80" alt="Max the dog" />
+          <button class="fav-btn" aria-label="Favourite">🤍</button>
+          <div class="animal-status">Rescued</div>
+        </div>
+        <div class="animal-info">
+          <h3>Max</h3>
+          <p>🐕 Dog &nbsp;·&nbsp; 2 Years &nbsp;·&nbsp; Golden Retriever</p>
+          <a href="#" class="btn btn-primary btn-sm">Adopt Max</a>
+        </div>
+      </div>
+      <div class="animal-card reveal" data-id="2">
+        <div class="animal-img">
+          <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?w=500&q=80" alt="Luna the cat" />
+          <button class="fav-btn" aria-label="Favourite">🤍</button>
+          <div class="animal-status">Healthy</div>
+        </div>
+        <div class="animal-info">
+          <h3>Luna</h3>
+          <p>🐱 Cat &nbsp;·&nbsp; 1 Year &nbsp;·&nbsp; Persian Mix</p>
+          <a href="#" class="btn btn-primary btn-sm">Adopt Luna</a>
+        </div>
+      </div>
+      <div class="animal-card reveal" data-id="3">
+        <div class="animal-img">
+          <img src="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=500&q=80" alt="Buddy the dog" />
+          <button class="fav-btn" aria-label="Favourite">🤍</button>
+          <div class="animal-status">Rescued</div>
+        </div>
+        <div class="animal-info">
+          <h3>Buddy</h3>
+          <p>🐕 Dog &nbsp;·&nbsp; 3 Years &nbsp;·&nbsp; Labrador</p>
+          <a href="#" class="btn btn-primary btn-sm">Adopt Buddy</a>
+        </div>
+      </div>
+      <div class="animal-card reveal" data-id="4">
+        <div class="animal-img">
+          <img src="https://images.unsplash.com/photo-1596854407944-bf87f6fdd49e?w=500&q=80" alt="Coco the cat" />
+          <button class="fav-btn" aria-label="Favourite">🤍</button>
+          <div class="animal-status">Vaccinated</div>
+        </div>
+        <div class="animal-info">
+          <h3>Coco</h3>
+          <p>🐱 Cat &nbsp;·&nbsp; 4 Months &nbsp;·&nbsp; Tabby</p>
+          <a href="#" class="btn btn-primary btn-sm">Adopt Coco</a>
+        </div>
+      </div>
+    </div>
+    <div class="center-btn reveal">
+      <a href="#" class="btn btn-outline">View All Animals 🐾</a>
+    </div>
+  </div>
+</section>
+
+<!-- DONATE -->
+<section id="donate" class="section section-alt">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">Make a Difference</div>
+      <h2 class="section-title">Your Donation <span class="gradient-text">Saves Lives</span></h2>
+      <p>Every dollar you give goes directly to helping animals in need</p>
+    </div>
+    <div class="donate-grid">
+      <div class="donate-options">
+        <div class="donate-cards">
+          <div class="donate-card glass reveal active" data-amount="10">
+            <span class="d-icon">🍗</span>
+            <strong>$10</strong>
+            <p>Feeds an animal for a week</p>
+          </div>
+          <div class="donate-card glass reveal" data-amount="25">
+            <span class="d-icon">💊</span>
+            <strong>$25</strong>
+            <p>Covers medical treatment</p>
+          </div>
+          <div class="donate-card glass reveal" data-amount="50">
+            <span class="d-icon">🏠</span>
+            <strong>$50</strong>
+            <p>Shelters an animal for a month</p>
+          </div>
+          <div class="donate-card glass reveal" data-amount="100">
+            <span class="d-icon">🌟</span>
+            <strong>$100</strong>
+            <p>Fully sponsors one rescue</p>
+          </div>
+        </div>
+        <div class="progress-box glass reveal">
+          <div class="progress-info">
+            <span>🎯 Monthly Goal</span>
+            <span><strong id="progress-amount">$68,450</strong> of $100,000</span>
+          </div>
+          <div class="progress-bar-wrap">
+            <div class="progress-bar" id="progress-bar" data-width="68"></div>
+          </div>
+          <div class="progress-labels">
+            <span>68% Funded</span>
+            <span>$31,550 to go</span>
+          </div>
+        </div>
+      </div>
+      <div class="donate-form-box glass reveal">
+        <h3>Complete Your Donation</h3>
+        <form id="donate-form" novalidate>
+          <div class="form-group">
+            <input type="text" id="d-name" placeholder=" " required />
+            <label for="d-name">Full Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="d-email" placeholder=" " required />
+            <label for="d-email">Email Address</label>
+          </div>
+          <div class="form-group">
+            <input type="text" id="d-amount" placeholder=" " value="$10" />
+            <label for="d-amount">Donation Amount</label>
+          </div>
+          <div class="form-group">
+            <select id="d-freq">
+              <option value="once">One Time</option>
+              <option value="monthly">Monthly</option>
+              <option value="yearly">Yearly</option>
+            </select>
+            <label for="d-freq">Frequency</label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-block">
+            ❤️ Donate Now
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VOLUNTEER -->
+<section id="volunteer" class="section">
+  <div class="container volunteer-grid">
+    <div class="vol-content reveal">
+      <div class="section-tag">Join the Team</div>
+      <h2 class="section-title">Be a <span class="gradient-text">Volunteer</span></h2>
+      <p>Your time and skills can change an animal's world. Join our community of passionate volunteers and help us make a real difference every single day.</p>
+      <ul class="vol-perks">
+        <li>🐾 Hands-on animal care experience</li>
+        <li>🎓 Free training & certifications</li>
+        <li>🌍 Join a global community</li>
+        <li>💚 Make a lasting impact</li>
+      </ul>
+    </div>
+    <div class="vol-form glass reveal">
+      <h3>Register as Volunteer</h3>
+      <form id="vol-form" novalidate>
+        <div class="form-row">
+          <div class="form-group">
+            <input type="text" id="v-name" placeholder=" " required />
+            <label for="v-name">Full Name</label>
+            <span class="form-error" id="v-name-err"></span>
+          </div>
+          <div class="form-group">
+            <input type="email" id="v-email" placeholder=" " required />
+            <label for="v-email">Email</label>
+            <span class="form-error" id="v-email-err"></span>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="tel" id="v-phone" placeholder=" " required />
+          <label for="v-phone">Phone Number</label>
+          <span class="form-error" id="v-phone-err"></span>
+        </div>
+        <div class="form-group">
+          <select id="v-interest" required>
+            <option value="">Select Interest</option>
+            <option>Animal Care & Feeding</option>
+            <option>Medical Assistance</option>
+            <option>Rescue Operations</option>
+            <option>Adoption Support</option>
+            <option>Fundraising & Events</option>
+          </select>
+          <label for="v-interest">Area of Interest</label>
+        </div>
+        <div class="form-group">
+          <textarea id="v-msg" placeholder=" " rows="3"></textarea>
+          <label for="v-msg">Your Message</label>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">
+          🌟 Join the Team
+        </button>
+        <div id="vol-success" class="form-success" style="display:none">
+          ✅ Thank you! We'll be in touch soon.
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- SUCCESS STORIES -->
+<section id="stories" class="section section-alt">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">Happy Endings</div>
+      <h2 class="section-title">Success <span class="gradient-text">Stories</span></h2>
+      <p>Real stories that warm the heart</p>
+    </div>
+    <div class="slider-wrap">
+      <div class="slider" id="slider">
+        <div class="slide active">
+          <div class="slide-inner glass">
+            <div class="slide-img">
+              <img src="https://images.unsplash.com/photo-1583511655826-05700d52f4d9?w=400&q=80" alt="Rocky's story" />
+            </div>
+            <div class="slide-text">
+              <div class="stars">★★★★★</div>
+              <p>"Rocky was found injured on the highway. Within three weeks at PawsHope, he was healthy, happy, and ready for his forever family. We adopted him and he's now the joy of our home. Thank you PawsHope!"</p>
+              <div class="slide-author">
+                <strong>Sarah & James</strong>
+                <span>Rocky's Family</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-inner glass">
+            <div class="slide-img">
+              <img src="https://images.unsplash.com/photo-1526336024174-e58f5cdd8e13?w=400&q=80" alt="Mittens story" />
+            </div>
+            <div class="slide-text">
+              <div class="stars">★★★★★</div>
+              <p>"We found Mittens at PawsHope after losing our previous cat. She was shy at first but is now the most affectionate cat I've ever had. The adoption process was smooth and the team was incredibly supportive."</p>
+              <div class="slide-author">
+                <strong>Maria Chen</strong>
+                <span>Mittens' Mom</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="slide-inner glass">
+            <div class="slide-img">
+              <img src="https://images.unsplash.com/photo-1553736026-ff14d158d409?w=400&q=80" alt="Bear story" />
+            </div>
+            <div class="slide-text">
+              <div class="stars">★★★★★</div>
+              <p>"Bear was severely malnourished when rescued. The medical team at PawsHope worked miracles. He's now a healthy, playful two-year-old who loves everyone he meets. We're forever grateful."</p>
+              <div class="slide-author">
+                <strong>Tom & Lila Rodriguez</strong>
+                <span>Bear's Family</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="slider-controls">
+        <button class="slider-btn" id="prev-slide" aria-label="Previous">←</button>
+        <div class="slider-dots" id="slider-dots"></div>
+        <button class="slider-btn" id="next-slide" aria-label="Next">→</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="section">
+  <div class="container">
+    <div class="section-header reveal">
+      <div class="section-tag">Photo Gallery</div>
+      <h2 class="section-title">Moments of <span class="gradient-text">Hope</span></h2>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item reveal g-tall">
+        <img src="https://images.unsplash.com/photo-1601758003122-53c40e686a19?w=600&q=80" alt="Dog rescue" />
+        <div class="gallery-overlay"><span>🐾</span></div>
+      </div>
+      <div class="gallery-item reveal">
+        <img src="https://images.unsplash.com/photo-1548767797-d8c844163c4a?w=400&q=80" alt="Cat" />
+        <div class="gallery-overlay"><span>🐾</span></div>
+      </div>
+      <div class="gallery-item reveal">
+        <img src="https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=400&q=80" alt="Dog" />
+        <div class="gallery-overlay"><span>🐾</span></div>
+      </div>
+      <div class="gallery-item reveal g-wide">
+        <img src="https://images.unsplash.com/photo-1583512603806-077998240c7a?w=700&q=80" alt="Rabbit" />
+        <div class="gallery-overlay"><span>🐾</span></div>
+      </div>
+      <div class="gallery-item reveal">
+        <img src="https://images.unsplash.com/photo-1574158622682-e40e69881006?w=400&q=80" alt="Cat" />
+        <div class="gallery-overlay"><span>🐾</span></div>
+      </div>
+      <div class="gallery-item reveal">
+        <img src="https://images.unsplash.com/photo-1518020382113-a7e8fc38eac9?w=400&q=80" alt="Dog" />
+        <div class="gallery-overlay"><span>🐾</span></div>
+      </div>
+    </div>
+  </div>
+  <!-- Lightbox -->
+  <div id="lightbox" class="lightbox">
+    <button id="lb-close" class="lb-close">✕</button>
+    <img id="lb-img" src="" alt="" />
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section section-alt">
+  <div class="container faq-wrap">
+    <div class="section-header reveal">
+      <div class="section-tag">FAQs</div>
+      <h2 class="section-title">Common <span class="gradient-text">Questions</span></h2>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item glass reveal">
+        <button class="faq-q">How can I adopt an animal? <span class="faq-icon">+</span></button>
+        <div class="faq-a">
+          <p>To adopt, browse our available animals section, select one you connect with, and fill out our adoption application. Our team will review and contact you within 48 hours for a meet-and-greet session.</p>
+        </div>
+      </div>
+      <div class="faq-item glass reveal">
+        <button class="faq-q">Are donations tax-deductible? <span class="faq-icon">+</span></button>
+        <div class="faq-a">
+          <p>Yes! PawsHope is a registered 501(c)(3) nonprofit organization. All donations are fully tax-deductible to the extent permitted by law. You'll receive a receipt via email immediately after your donation.</p>
+        </div>
+      </div>
+      <div class="faq-item glass reveal">
+        <button class="faq-q">How are donations used? <span class="faq-icon">+</span></button>
+        <div class="faq-a">
+          <p>90% of all donations go directly to animal care — food, medical treatment, shelter operations, and rescue logistics. Only 10% covers administrative costs, ensuring maximum impact for every dollar you give.</p>
+        </div>
+      </div>
+      <div class="faq-item glass reveal">
+        <button class="faq-q">Can I foster an animal temporarily? <span class="faq-icon">+</span></button>
+        <div class="faq-a">
+          <p>Absolutely! Fostering is a wonderful way to help. You provide temporary care while we work on finding permanent homes. Contact us via the volunteer form and select "Adoption Support" as your interest area.</p>
+        </div>
+      </div>
+      <div class="faq-item glass reveal">
+        <button class="faq-q">What animals do you rescue? <span class="faq-icon">+</span></button>
+        <div class="faq-a">
+          <p>We rescue dogs, cats, rabbits, birds, and other small animals. We work with partner organizations for larger animals. If you've found an injured or abandoned animal, please call our 24/7 rescue hotline.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="container contact-grid">
+    <div class="contact-info reveal">
+      <div class="section-tag">Get in Touch</div>
+      <h2 class="section-title">Contact <span class="gradient-text">Us</span></h2>
+      <p>We'd love to hear from you. Reach out for adoptions, volunteering, donations, or just to say hello!</p>
+      <ul class="contact-list">
+        <li><span>📍</span><div><strong>Address</strong><p>123 Rescue Lane, Animalia City, AC 45678</p></div></li>
+        <li><span>📞</span><div><strong>Phone</strong><p>+1 (800) PAWS-HOPE</p></div></li>
+        <li><span>📧</span><div><strong>Email</strong><p>hello@pawshope.org</p></div></li>
+        <li><span>🕐</span><div><strong>Hours</strong><p>Mon–Sat: 8 AM – 6 PM</p></div></li>
+      </ul>
+      <div class="social-row">
+        <a href="#" class="social-btn" aria-label="Facebook">𝔽</a>
+        <a href="#" class="social-btn" aria-label="Instagram">📷</a>
+        <a href="#" class="social-btn" aria-label="Twitter">𝕏</a>
+        <a href="#" class="social-btn" aria-label="YouTube">▶</a>
+      </div>
+    </div>
+    <div class="contact-form-box glass reveal">
+      <form id="contact-form" novalidate>
+        <h3>Send a Message</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <input type="text" id="c-name" placeholder=" " required />
+            <label for="c-name">Full Name</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="c-email" placeholder=" " required />
+            <label for="c-email">Email</label>
+          </div>
+        </div>
+        <div class="form-group">
+          <input type="text" id="c-subject" placeholder=" " />
+          <label for="c-subject">Subject</label>
+        </div>
+        <div class="form-group">
+          <textarea id="c-msg" rows="4" placeholder=" "></textarea>
+          <label for="c-msg">Message</label>
+        </div>
+        <div class="form-group newsletter-row">
+          <label class="checkbox-label">
+            <input type="checkbox" id="newsletter" />
+            Subscribe to our newsletter for updates
+          </label>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">
+          📨 Send Message
+        </button>
+        <div id="contact-success" class="form-success" style="display:none">
+          ✅ Message sent! We'll reply within 24 hours.
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- Map Placeholder -->
+  <div class="map-placeholder reveal container">
+    <div class="map-inner">
+      <div class="map-pin">📍</div>
+      <p>123 Rescue Lane, Animalia City</p>
+      <small>Interactive map would load here in production</small>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="footer-top container">
+    <div class="footer-brand">
+      <a href="#" class="logo">
+        <span class="logo-icon">🐾</span>
+        <span>Paws<em>Hope</em></span>
+      </a>
+      <p>Rescuing animals, restoring hope, rebuilding lives — one paw at a time since 2010.</p>
+      <div class="social-row">
+        <a href="#" class="social-btn" aria-label="Facebook">𝔽</a>
+        <a href="#" class="social-btn" aria-label="Instagram">📷</a>
+        <a href="#" class="social-btn" aria-label="Twitter">𝕏</a>
+        <a href="#" class="social-btn" aria-label="YouTube">▶</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#programs">Our Programs</a></li>
+        <li><a href="#animals">Adopt</a></li>
+        <li><a href="#stories">Success Stories</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Get Involved</h4>
+      <ul>
+        <li><a href="#donate">Donate Now</a></li>
+        <li><a href="#volunteer">Volunteer</a></li>
+        <li><a href="#">Corporate Partnerships</a></li>
+        <li><a href="#">Monthly Giving</a></li>
+        <li><a href="#">Legacy Giving</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Newsletter</h4>
+      <p>Get rescue stories & updates in your inbox.</p>
+      <div class="footer-newsletter">
+        <input type="email" placeholder="Your email" />
+        <button class="btn btn-primary">→</button>
+      </div>
+      <p class="footer-cert">🔒 Secure & spam-free</p>
+    </div>
+  </div>
+  <div class="footer-bottom container">
+    <p>© 2024 PawsHope Animal Charity. All rights reserved. Made with ❤️ for animals.</p>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+      <a href="#">Cookie Policy</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
